@@ -1,0 +1,6 @@
+A mobile client for BigBlueButton. This project is a work in progress still in it's early stages.
+The plan is to write a client in pure ActionScript which can be compiled to iOS using the Adobe CS5 packager. It should also compile to Android using Adobe's AIR for Android. The aim is to get a working prototype running on both Android and iOS before attempting to write native clients on either platform.
+
+The easiest way to run the code in it's current form is to import the project in Flash Builder, and run it in debug mode. The code replicates chunks of code from the regular bbb-client, except without using Flex, and is not modular. To point the client to your bigbluebutton server, edit the file src/conf/config.xml, and change the ip addresses there to point to your bbb server. After doing that in debug mode, the client should be able to connect to your bbb server, perform a handshake, and query for participants.
+
+Contributions are welcome.

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <config>
     <version>0.01</version>
-    <help url="http://192.168.2.119/help.html"/>
-    <porttest host="192.168.2.119" application="video"/>    
-    <application uri="rtmp://192.168.2.119/bigbluebutton" host="conf/join-mock.xml" />
+    <help url="http://192.168.0.145/help.html"/>
+    <porttest host="192.168.0.145" application="video"/>    
+    <application uri="rtmp://192.168.0.145/bigbluebutton" host="conf/join-mock.xml" />
 </config>
