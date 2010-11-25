@@ -16,7 +16,7 @@
 			
 			private function configLoaded():void{
 				userService = new UserService();
-				userService.startService(configParameters.application, configParameters.host);
+				userService.startService(configParameters.application, configParameters.host); 
 			}
 			
 		]]>
