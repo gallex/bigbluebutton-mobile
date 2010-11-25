@@ -1,4 +1,4 @@
-package org.bigbluebutton.mobile.services
+package org.bigbluebutton.android.services
 {
 	import flash.events.Event;
 	import flash.net.URLLoader;

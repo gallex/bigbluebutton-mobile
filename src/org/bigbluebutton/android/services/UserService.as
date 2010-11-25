@@ -1,10 +1,10 @@
-package org.bigbluebutton.mobile.services
+package org.bigbluebutton.android.services
 {	
 	import flash.net.NetConnection;
 	
-	import org.bigbluebutton.mobile.model.Conference;
-	import org.bigbluebutton.mobile.model.ConferenceParameters;
-	import org.bigbluebutton.mobile.model.User;
+	import org.bigbluebutton.android.model.Conference;
+	import org.bigbluebutton.android.model.ConferenceParameters;
+	import org.bigbluebutton.android.model.User;
 
 	public class UserService
 	{

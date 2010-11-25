@@ -1,4 +1,4 @@
-package org.bigbluebutton.mobile.services
+package org.bigbluebutton.android.services
 {
 	import flash.events.AsyncErrorEvent;
 	import flash.events.IOErrorEvent;
@@ -8,9 +8,9 @@ package org.bigbluebutton.mobile.services
 	import flash.net.Responder;
 	import flash.net.SharedObject;
 	
-	import org.bigbluebutton.mobile.model.ConferenceParameters;
-	import org.bigbluebutton.mobile.model.User;
-	import org.bigbluebutton.mobile.model.UserDirectory;
+	import org.bigbluebutton.android.model.ConferenceParameters;
+	import org.bigbluebutton.android.model.User;
+	import org.bigbluebutton.android.model.UserDirectory;
 
 	public class UserSOService
 	{
@@ -116,7 +116,7 @@ package org.bigbluebutton.mobile.services
 			
 			var useridString:String = result as String;
 			this.userid = parseInt(useridString);
-			trace("" + this.userid);
+			trace("My user id: " + this.userid);
 			
 			join();
 		}
@@ -160,7 +160,7 @@ package org.bigbluebutton.mobile.services
 			); //_netConnection.call
 		}
 		
-		public function participantJoined(joinedUser:Object):void { 
+		public function participantJoined(joinedUser:Object):void {
 			var user:User = new User();
 			user.userid = Number(joinedUser.userid);
 			user.name = joinedUser.name;

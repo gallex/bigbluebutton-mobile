@@ -1,4 +1,4 @@
-package org.bigbluebutton.mobile.model
+package org.bigbluebutton.android.model
 {
 	public class UserDirectory
 	{

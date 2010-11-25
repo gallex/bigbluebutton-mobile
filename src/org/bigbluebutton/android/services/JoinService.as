@@ -17,7 +17,7 @@
  *
  * $Id: $
  */
-package org.bigbluebutton.mobile.services
+package org.bigbluebutton.android.services
 {
 	import flash.events.*;
 	import flash.net.URLLoader;
